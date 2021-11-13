@@ -1,0 +1,11 @@
+age = input("Are you a cigarette addict older than 75 years old?: ")
+chronic = input("Do you have a severe chronic disease?: ")
+immune = input("Is your immune system too weak?: ")
+if age == "True":
+  print("Result: high risk of death from coronavirus")
+elif chronic == "True":
+  print("Result: high risk of death from coronavirus")  
+elif immune == "True":
+  print("Result: high risk of death from coronavirus") 
+else:
+  print("Result: no high risk of death from coronavirus.")
